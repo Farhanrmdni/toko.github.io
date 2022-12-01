@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <!--    
+        JS Credits to bartveneman
+        Comments? Feel free!
+ -->
+
+    <div class="wrap">
+      <div class="flip-container" id="flippr">
+        <div class="flipper">
+          <div class="front"></div>
+          <div class="back"></div>
+        </div>
+      </div>
+
+      <h1 class="text" id="welcome">Welcome. <span>please login.</span></h1>
+
+      <form method="post" id="theForm">
+        <input type="text" id="username" name="username" placeholder="Username" /> <br />
+        <input type="password" id="password" name="password" placeholder="Password" />
+
+        <div class="login">
+          <a href="#"><i class="icon-cog"></i> I've fogotten my password</a> <br />
+          <center>
+            <a href="../index.html"><i class="icon-cog"></i> Kembali (i)</a> <br />
+            <input type="submit" value="Login" />
+            <input type="submit" value="Daftar" />
+          </center>
+        </div>
+        <!-- /login -->
+      </form>
+    </div>
+    <!-- /wrap -->
+
+    <script src="log.js"></script>
+  </body>
+</html>
